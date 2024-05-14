@@ -6,7 +6,7 @@ const PlaceOrderSchema = joi.object().keys({
   customer_name: joi.string().required(),
   customer_phone: joi.string().required(),
   customer_address: joi.string().required(),
-  customer_product: joi.string().required(),
+  customer_product: joi.object().required(),
 });
 
 module.exports = {

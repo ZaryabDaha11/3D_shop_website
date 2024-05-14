@@ -1,10 +1,8 @@
-const PRODUCT = require('./definations/product');
 const ORDER = require('./definations/order');
 const sequelize = require('../bin/dbConnection');
 
 const models = {
     orders: ORDER,
-    products: PRODUCT,
 }
 
 const db = {}
