@@ -21,9 +21,8 @@ ORDER.init({
         allowNull: false,
     },
     customer_product: {
-        type: DataTypes.STRING(),
-        allowNull: false,
-        
+        type: DataTypes.JSON(),
+        allowNull: false
     },
 }, {
     timestamps: true,
